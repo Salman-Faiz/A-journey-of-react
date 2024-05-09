@@ -5,6 +5,8 @@ import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './Singer'
+import BookStore from './BookStore'
+import Book from './Book'
 
 function App() {
   
@@ -17,11 +19,24 @@ function App() {
     {name:'Jemes', age:65}
   ]
 
+  const books=[
+    {BookName : 'ict', price : 200},
+    {BookName : 'math', price : 450},
+    {BookName : 'Biology', price : 650},
+    {BookName : 'Chemestry', price : 550},
+    {BookName : 'Physics', price : 350}
+  ]
+
   return (
     <>
     
       <h1>Vite + React</h1>
       <h2>salman faiz</h2>
+
+      <BookStore books={books}></BookStore>
+
+
+
 
       {
         singers.map(singer => <Singer singer={singer}></Singer>)
