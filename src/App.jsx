@@ -7,6 +7,8 @@ import Actor from './Actor'
 import Singer from './Singer'
 import BookStore from './BookStore'
 import Book from './Book'
+import HandleBtn from './HandleBtn'
+import Counter from './Counter'
 
 function App() {
   
@@ -33,10 +35,12 @@ function App() {
       <h1>Vite + React</h1>
       <h2>salman faiz</h2>
 
-      <BookStore books={books}></BookStore>
+      <Counter></Counter>
+
+      <HandleBtn></HandleBtn>
 
 
-
+      {/* <BookStore books={books}></BookStore>
 
       {
         singers.map(singer => <Singer singer={singer}></Singer>)
@@ -46,7 +50,7 @@ function App() {
 
       {
         actors.map(actor => <Actor name={actor}></Actor>)
-      }
+      } */}
 
       
 
