@@ -9,6 +9,7 @@ import BookStore from './BookStore'
 import Book from './Book'
 import HandleBtn from './HandleBtn'
 import Counter from './Counter'
+import Users from './Users'
 
 function App() {
   
@@ -34,6 +35,8 @@ function App() {
     
       <h1>Vite + React</h1>
       <h2>salman faiz</h2>
+
+      <Users></Users>
 
       <Counter></Counter>
 
