@@ -53,3 +53,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.friendsCss{
+  border: 1px solid violet;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 15px;
+}
